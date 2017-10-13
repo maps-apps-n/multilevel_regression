@@ -9,4 +9,4 @@ A good sample rate: although there is no rule of thumb for how many units within
 # notes
 Level 1 random intercept model
 Iij = δ00 + u0j + εij + α1j Xij.
-where Iij = δ00 + u0j + εij is the  Null model and α1j Xij is the variation due to predictor x
+Where Iij = δ00 + u0j + εij is the  Null model and α1j Xij is the variation due to predictor x
