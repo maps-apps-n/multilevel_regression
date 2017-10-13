@@ -7,6 +7,5 @@ Hierarchical, aka nested data (i.e. towns within counties, patients within hospi
 
 # notes
 Level 1 random intercept model
-Iij = δ00 + u0j + εij + α1j Xij
-  where Iij = δ00 + u0j + εij is the  Null model              
-  and α1j Xij is the variation due to predictor x
+Iij = δ00 + u0j + εij + α1j Xij.
+where Iij = δ00 + u0j + εij is the  Null model and α1j Xij is the variation due to predictor x
