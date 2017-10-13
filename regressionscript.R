@@ -35,7 +35,7 @@ qqnorm(residuals(olsLine))
 qqline(residuals(olsLine))
 
 
-# Mixed model for the Divisions level
+# Mixed model for geo-divisions (level 2)
 
 mixedmod2 <- lmer(centered.scaled.Incidencerate ~ centered.scaled.Hospitalrate + centered.scaled.SchCoverage + (1 + centered.scaled.SchCoverage | DivisionNew) , data = dataset)
 summary(mixedmod2)
