@@ -7,7 +7,7 @@ Hierarchical, aka nested data (i.e. towns within counties, patients within hospi
 A good sample rate: although there is no rule of thumb for how many units within a level, the lower the number the higher the chance of errors in your model (i.e. 327 units within 12 divisions)
 
 # notes
-Level 1 random intercept model
+Level 1 random intercept model </BR>
 Iij = δ00 + u0j + εij + α1j Xij.</BR>
 Where Iij = δ00 + u0j + εij is the  Null model </BR>
 α1j Xij is the variation due to predictor x
